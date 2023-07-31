@@ -1,23 +1,28 @@
 import React from "react";
 import '../Assets/css/navbar.css';
-import '../Assets/js/navbar.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 function NavBar() {
     return (
-    <header id="nav-wrapper">
-        <nav id="nav">
-            <div class="nav left">
-                <span class="gradient"><h1 class="logo"><a href="#home">Logo Here</a></h1></span>
-                <button id="menu" class="btn-nav"><span class="fas fa-bars"></span></button>
-            </div>
-            <div class="nav right">
-                <a href="#home" class="nav-link active"><span class="nav-link-span"><span class="u-nav">Inicio</span></span></a>
-                <a href="#local" class="nav-link"><span class="nav-link-span"><span class="u-nav">Local</span></span></a>
-                <a href="#login" class="nav-link"><span class="nav-link-span"><span class="u-nav">LOGIN</span></span></a>
-                <a href="#cart" class="nav-link"><span class="nav-link-span"><span class="u-nav"><i class="fa-regular fa-cart-shopping"></i></span></span></a>
-            </div>
-        </nav>
-  </header>
+    <header class="header">
+		<h1 class="logo"><a href="#">Rumme<span>lange</span></a></h1>
+        <div class="search">
+            <input type="text" placeholder="Buscar productos" class="searchInput"/> 
+            <FontAwesomeIcon icon={faMagnifyingGlass} class="searchIcon"/>      
+        </div>
+        <ul class="main-nav">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Local</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#"> <FontAwesomeIcon icon={faCartShopping} /> </a></li>
+        </ul>
+        <ul class="bars">
+        <li><a href="#"> <FontAwesomeIcon icon={faBars} /> </a></li>
+        </ul>
+	</header> 
     )
 }
 

@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './views/Navbar';
+import Proximamente from './views/Proximamente';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <p></p>
-      <p>Rumelange proximamente</p>
+      <Proximamente/>
     </div>
   );
 }
