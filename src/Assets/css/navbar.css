@@ -36,6 +36,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .main-nav {
@@ -92,10 +93,18 @@ a {
     font-size: 1.3em
 }
 
-.searchIcon {
-  width: 1.2em;
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search a {
+    width: 0.8rem;
     text-align: center; 
     color: #34495e;
+    margin-left: 5px;
+
 }
 
 /* ================================= 
@@ -117,17 +126,23 @@ a {
 	.header {
 		flex-direction: row;
 		justify-content: space-between;
-    	.header{
-		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}
+
+  .bars {
+    display: block
+  }
 
 }
 
-@media (max-width: 768px) {
-  .bars {
-    display: block
+@media (min-width: 780px) {
+  
+  .search {
+    width: 500px;
+  }
+
+  .searchInput {
+    width: 80%;
   }
 }
