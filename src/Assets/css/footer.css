@@ -196,8 +196,11 @@ section {
         text-align: center;
     }
 
-    .footer-distributed .footer-center i{
+    .footer-distributed .footer-center .icons{
         margin-left: 0;
     }
 
+    .footer-distributed .footer-icons{
+        justify-content: center;
+    }
 }

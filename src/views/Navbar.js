@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
+    
     <header class="header">
 		<h1 class="logo"><Link to="#">Rumme<span>lange</span></Link></h1>
         <div class="search">

@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './views/Navbar';
-import Proximamente from './views/Proximamente';
+import Main from './views/Main';
 import Footer from './views/Footer';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <NavBar/>
       
-      <Proximamente/>
+      <Main/>
 
       <Footer/>
     </div>

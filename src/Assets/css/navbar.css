@@ -33,12 +33,6 @@ a {
 	font-size: 1.45em;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .main-nav {
 	margin-top: 5px;
   display: flex;
@@ -76,6 +70,9 @@ a {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 
