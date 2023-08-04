@@ -1,0 +1,19 @@
+.sidebar-container {
+    width: 20%;
+    background-color: aquamarine;
+}
+
+.side-nav {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.sub-list:hover .sub-sidebar {
+    background-color: brown;
+    display: block;
+}
+
+.sub-sidebar {
+    margin-left: 20px;
+    display: none;
+}
