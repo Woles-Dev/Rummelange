@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-section {
+/*section {
     width: 100%;
     display: inline-block;
     background: #333;
@@ -12,7 +12,7 @@ section {
     font-weight: 700;
     text-decoration: underline;
 }
-
+*/
 .footer-distributed{
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
@@ -28,6 +28,7 @@ section {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+    position: absolute;
 }
 
 .footer-distributed .footer-left,

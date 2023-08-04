@@ -14,12 +14,9 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
     height: 100%;
     margin: auto;
-    position:relative;
 }
-
 .product-container {
     width: 22%;
     height: 300px;
@@ -125,3 +122,5 @@ main {
         opacity: 1;
     }
 }
+
+
