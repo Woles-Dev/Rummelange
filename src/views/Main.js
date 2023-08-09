@@ -14,9 +14,13 @@ function Main() {
     return (
         <main>
             <Sidebar />
+
+            <div className="product-container"> 
+                <div>{ productss }</div> 
+                {/* <Products /> */}
+            </div>
  
-            <div>{ productss }</div> 
-            {/* <Products /> */}
+            
             
 
         </main>

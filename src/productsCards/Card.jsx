@@ -18,8 +18,8 @@ const Card = ( {
   let priceProduct = price < 200 ? true : false
 
   return (
-    <div>
-        <section className='card-conteiner'>
+    <div className='card-conteiner'>
+        <section >
           {newCollection && (
             <span className='new'>
             {<img className='star' src={`/images/${imgs.imgStar}`} alt='product'/>}

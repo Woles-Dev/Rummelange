@@ -3,21 +3,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    padding: 30px;
-    font-size: 19px;
-}
-
 .img-product {
-    width: 100%;
+    width: 20%;
 }
 
 .star {
     width: 10%;
 }
-.card-container{
+.card-conteiner {
+    max-width: 25%;
     margin: 20px;
-   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card-container-img {
