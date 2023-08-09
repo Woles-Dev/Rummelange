@@ -1,5 +1,64 @@
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .product-container {
+    width: 30%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.card-container {
     width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 30px;
+}
+
+.btn-danger, .cart-i{
+    
+    height:30px;
+    font-size:12px;
+    
+}
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    background-color: red;
+}
+.btn-danger{
+    padding: 7.5px;
+}
+
+.product-card{
+    width:350px;
+    height:370px;
+    border: solid 1px gray;
+    padding: 30px;
+}
+
+.main-headline {
+    
+}
+
+.old {
+    text-decoration: line-through;
+
+}
+
+@media (max-width: 880px) {
+    .product-container {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
 
 
 }

@@ -8,7 +8,12 @@ function Main() {
     return (
     <main>
         <Sidebar/>
-        <Products/>
+        <div class="card-container">
+            <Products/>
+            <Products/>
+            <Products/>
+            <Products/>
+        </div>
     </main>
     )
 }

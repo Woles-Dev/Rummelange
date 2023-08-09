@@ -9,11 +9,13 @@ import "../../Assets/css/products.css"
 function Products() {
     return (
         <div class="product-container">
+            <div className="product-card">
             <CardImage/>
             <CardHeadline/>
             <CardDescription/>
             <CardPrice/>
             <AddToCart/>
+            </div>
         </div>
     )
 }

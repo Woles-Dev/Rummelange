@@ -1,5 +1,6 @@
 import React from "react";
 import '../Assets/css/navbar.css';
+import FixLogin from "./Fixed-Login";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -18,7 +19,11 @@ function NavBar() {
         <ul class="main-nav">
             <li><Link to="#">Inicio</Link></li>
             <li><Link to="#">Local</Link></li>
-            <li><Link to="#">Login</Link></li>
+            <li class="login">
+                <Link to="#" >Login</Link>
+                <FixLogin />
+            </li>
+            
             <li><Link to="#"> <FontAwesomeIcon icon={faCartShopping} /> </Link></li>
         </ul>
         <ul class="bars">

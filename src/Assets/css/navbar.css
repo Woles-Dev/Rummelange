@@ -11,6 +11,7 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  position: relative;
 }
 
 
@@ -56,7 +57,59 @@ a {
 	color: #718daa;
 }
 
+/* Fixed Login */
 
+.fixed-login {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  padding: 20px;
+  background-color:#f4f4f4;
+  border: 1px solid #34495e;
+}
+
+.form-top {
+  
+}
+
+.form-bottom {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.password-recovery {
+  font-size: 14px;
+}
+
+.password-remember {
+  padding-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.fixed-login .container .col {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+}
+
+.userIcon {
+  font-size: 20px;
+  width: 25%;
+  padding: 10px;
+}
+
+/* END Fixed Login */
 
 .header {
 	padding-top: .5em;
@@ -141,5 +194,9 @@ a {
 
   .searchInput {
     width: 80%;
+  }
+
+  ul .login:hover .fixed-login {
+    display: block;
   }
 }

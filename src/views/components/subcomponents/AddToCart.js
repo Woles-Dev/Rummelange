@@ -9,7 +9,7 @@ function AddToCart() {
         <div>
                 <div className="cart">
                     <FontAwesomeIcon icon={faCartShopping} class="cart-i"/>
-                    <span>ADD TO CART</span>
+                    <span class="btn btn-danger">ADD TO CART</span>
                 </div>
         </div>
     )

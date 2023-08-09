@@ -3,10 +3,7 @@ import React from "react";
 
 function CardHeadline() {
     return (
-        <div class = "head">
-            <p>Flower Embroidery Hoop Art</p>
-        </div>
-                
+        <h1 class="main-heading">VASE</h1>                
     )
 }
 
