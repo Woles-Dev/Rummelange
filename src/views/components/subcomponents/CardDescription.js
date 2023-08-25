@@ -4,10 +4,7 @@ import React from "react";
 
 function CardDescription() {
     return (
-        <div class="description">
-            <h5 class="text-uppercase mb-0">Blanda Matt</h5>
-            
-        </div>
+        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     )
 }
 

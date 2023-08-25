@@ -6,12 +6,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 function AddToCart() {
     return (
-        <div>
-                <div className="cart">
-                    <FontAwesomeIcon icon={faCartShopping} class="cart-i"/>
-                    <span class="btn btn-danger">ADD TO CART</span>
-                </div>
-        </div>
+        <button class="add-to-cart-btn">Add to Cart</button>
     )
 }
 

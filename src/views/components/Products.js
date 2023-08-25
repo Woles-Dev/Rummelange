@@ -11,10 +11,13 @@ function Products() {
         <div class="product-container">
             <div className="product-card">
             <CardImage/>
-            <CardHeadline/>
-            <CardDescription/>
-            <CardPrice/>
-            <AddToCart/>
+
+                <div class="product-info">
+                    <CardDescription/>
+                    <CardHeadline/>
+                    <CardPrice/>
+                    <AddToCart/>
+                </div>
             </div>
         </div>
     )

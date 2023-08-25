@@ -3,7 +3,7 @@ import React from "react";
 
 function CardHeadline() {
     return (
-        <h1 class="main-heading">VASE</h1>                
+        <h2 class="product-name">Product Name</h2>             
     )
 }
 

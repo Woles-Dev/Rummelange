@@ -71,12 +71,13 @@ a {
 }
 
 .form-top {
-  
+  background-color: red;
 }
 
 .form-bottom {
   margin: 0 auto;
   padding: 15px;
+  background-color: green;
 }
 
 .password-recovery {
@@ -93,7 +94,7 @@ a {
   width: 70%;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 5px auto 5px auto;
 }
 
 .fixed-login .container .col {
