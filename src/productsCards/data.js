@@ -28,10 +28,10 @@ export const data = [
     {
       id: 3,
       name: "Cesto Baño Maddera",
-      price: 150,
+      price: 210,
       description: "Cesto para Baño, con tapa de Madera",
       stock: 40,
-      newCollection: true,
+      newCollection: false,
       imgs: {
         imgProduct: "cestoBañoMadera.png",
         imgSoldOut: "soldOut.png",

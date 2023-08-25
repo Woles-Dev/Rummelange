@@ -14,8 +14,9 @@
     max-width: 25%;
     margin: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+
 }
 
 .card-container-img {
@@ -46,6 +47,10 @@ p {
 .discount {
     margin-right: 12px;
     color: rgb(202, 34, 205);
+}
+
+.card-conteiner section {
+    position: relative;
 }
 
 .new {
