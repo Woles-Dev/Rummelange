@@ -70,14 +70,10 @@ a {
   border: 1px solid #34495e;
 }
 
-.form-top {
-  background-color: red;
-}
 
 .form-bottom {
   margin: 0 auto;
   padding: 15px;
-  background-color: green;
 }
 
 .password-recovery {
@@ -106,8 +102,11 @@ a {
 
 .userIcon {
   font-size: 20px;
-  width: 25%;
-  padding: 10px;
+  width: 30%;
+  padding: 20px;
+  border: #34495e 2px solid;
+  box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 50%;
 }
 
 /* END Fixed Login */
@@ -129,7 +128,7 @@ a {
   width: 100%;
 }
 
-
+/* Burguer Bars */ 
 
 .bars {
   display: none;
@@ -144,25 +143,57 @@ a {
     font-size: 1.3em
 }
 
-.search {
+/* Search Input */
+
+.search-container{
+  background: #f4f4f4;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  border:  2px solid rgba(62, 62, 62, 0.8)
 }
 
-.search a {
-    width: 0.8rem;
-    text-align: center; 
-    color: #34495e;
-    margin-left: 5px;
+.search-container:hover > .search-input{
+  width: 400px;
+}
 
+.search-container .search-input{
+  background: transparent;
+  border: none;
+  outline:none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container .search-btn .fas{
+  color: #666;
+  font-weight: 500;
+  font-size: 16px;
+  width: 50%
+}
+
+.search-container .search-btn {
+    width: 25px;
+}
+
+
+.search-container:hover{
+animation: 0.15s linear 3;
 }
 
 /* ================================= 
   Media Queries
 ==================================== */
-
-
 
 
 @media (max-width: 769px) {
@@ -185,17 +216,15 @@ a {
     display: block
   }
 
+  .search-container:hover > .search-input{
+    width: 30%;
+  }
+
 }
 
 @media (min-width: 780px) {
   
-  .search {
-    width: 500px;
-  }
-
-  .searchInput {
-    width: 80%;
-  }
+  
 
   ul .login:hover .fixed-login {
     display: block;

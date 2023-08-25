@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../../logo.svg';
+import logo from "../../../Assets/img/DispenserPlastico.jpeg";
 
 function CardImage() {
     return (

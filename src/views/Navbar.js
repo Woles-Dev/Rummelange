@@ -12,9 +12,13 @@ function NavBar() {
     
     <header class="header">
 		<h1 class="logo"><Link to="#">Rumme<span>lange</span></Link></h1>
-        <div class="search">
-            <input type="text" placeholder="Buscar productos" id="search-item"  onkeyup="search()" class="searchInput"/> 
-            <Link to="#"><FontAwesomeIcon icon={faMagnifyingGlass} class="searchIcon"/></Link>                            
+        <div class="search-container">
+            <input type="text" name="search" placeholder="Search..." class="search-input"/>
+            
+                <Link to="#" class="search-btn">
+                    <FontAwesomeIcon icon={faMagnifyingGlass} class="fas fa-search"/>
+                </Link>
+                
         </div>
         <ul class="main-nav">
             <li><Link to="#">Inicio</Link></li>
