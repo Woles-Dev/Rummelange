@@ -1,0 +1,17 @@
+.banner {
+    width: 100%;
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    background-color: blue;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.category {
+    width: 30%;
+    
+}

@@ -18,13 +18,13 @@ function NavBar() {
                 <Link to="#" class="search-btn">
                     <FontAwesomeIcon icon={faMagnifyingGlass} class="fas fa-search"/>
                 </Link>
-                
+
         </div>
         <ul class="main-nav">
             <li><Link to="#">Inicio</Link></li>
             <li><Link to="#">Local</Link></li>
             <li class="login">
-                <Link to="#" >Login</Link>
+                <Link to="#" >Acceder</Link>
                 <FixLogin />
             </li>
             
