@@ -2,26 +2,33 @@ import React from "react";
 import '../Assets/css/main.css';
 import Sidebar from "./components/Sidebar";
 import Products from "./components/Products";
+import Card from "../productsCards/Card";
+import { data } from "../productsCards/data"
 import Banner from "./components/Banner";
 
 function Main() {
+    const productss = data.map(product => (
+        <Card key={product.id} {...product} />
+    ))
+    
     return (
-    <main>
-
+        <main>
+        {/* 
         <Banner/>
 
-        {/* 
-        Product container with card and Sidebar 
+        */}
+        
         
 
-        <Sidebar/>
+            <Sidebar />
         <div class="card-container">
-            <Products/>
-            
+                { productss }
+                <Products /> 
         </div>
+        
 
-        */}
-    </main>
+        
+        </main>
     )
 }
 
